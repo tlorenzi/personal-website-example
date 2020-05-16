@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #72C9B9;
+    color: #72C9B9;
+    font-family: 'Bangers', cursive;
+}
+
+h3,
+h4,
+h5,
+p {
+    font-family: sans-serif;
+}
+
+nav {
+    height: 50px;
+    color: white;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-top: 0;
+    justify-content: space-around;
+    list-style-type: none;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navItem {
+    text-decoration: none;
+    text-align: center;
+    color: white !important;
+    font-size: 1.4em;
+}
+
+.navItem:hover {
+    color: black;
+}
+
+.condiv {
+    margin: 50px 15% 0 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    flex-direction: column;
+    background-color: white;
+    height: 75vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.32rem;
+    overflow: scroll;
+}
+
+.condiv>h1 {
+    align-self: center;
+}
+
+.typingeffect {
+    font-size: 3.2rem;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.home {
+    padding-top: 20vh;
+    height: 55vh;
+    align-items: center;
+}
+
+.skills>ul {
+    align-self: flex-start;
+    font-family: sans-serif;
+
+}
